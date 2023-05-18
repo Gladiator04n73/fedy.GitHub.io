@@ -7,44 +7,32 @@
 <style>
 
 
-* {
-			margin: 0;
-			padding: 0;
-		}
-		html,
-		body {
-			height: 100%;
-		}
-
-ul {    margin: 10px 0px 0px 0px;
+ul {
         list-style: none;
     }
     li:before {
-        left: 366px;
-        width: 4px;
-        content: url(pic/plus.gif);
-        height: 14px;
-        width: 15px;
-        position: absolute;
+                    left: 378px;
+                    width: 4px;
+                    height: 14px;
+                    width: 15px;
+                    position: absolute;
 			}
-    li a {    margin: 15px 0px 0px 39px;
+    li a {
         color: #5578A1;
     }
     #container {
-    display: flex;
-    flex-direction: column;
-    width: 803px;
-    min-height: 100%;
-    margin: 7px 0px 0px 23px;
-  margin-left: auto;
-  margin-right: auto;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     }
     #header {
  
     height: 80px;
     background: #CCDDEE;
     }
-
+    #outer {
+    height: 190px;
+    }
 
     #left {
     width: 200px;
@@ -63,22 +51,19 @@ ul {    margin: 10px 0px 0px 0px;
     #center {
     margin: 11px 10px 0px 10px;
     }
-
-    #outer {
-    flex: 1 0 auto;
-    height: calc(100% - 280px);
-    }
-
     #footer {
-    flex: 0 0 auto;
-    margin-top: auto;
-    height:100px;
-    background:#DDCCEE;}
+    margin-top: 15px;
+    width: 800px;
+    height: 100px;
+    background: #DDCCEE;}
     .clearfix::after {
-    content:"";
-    clear:both;
-    flex:none;
+    content: "";
+    display: table;
+    clear: both;
     }
+
+
+
 </style>
 </head>
 <body>
